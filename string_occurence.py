@@ -1,17 +1,5 @@
-inp = input("Enter the String: ")
-input_list = list(inp)
-
-firstch = input_list[0]
-print("firstch :", firstch)
-
-first_found = False
-
-for i in input_list:
-    if i == firstch:
-        if not first_found:
-            print(i)
-            first_found = True
-        else:
-            print("$")
-    else:
-        print(i)
+str1 = input("Enter the String: ") 
+char = str1[0]
+str1 = str1.replace(char, '$')
+str1 = char + str1[1:]
+print(str1)
