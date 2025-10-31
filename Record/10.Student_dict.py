@@ -13,7 +13,6 @@ def find_grade(total_mark):
     else:
         return 'F'
     
-
 student1 = {
     "name": "Nihal",
     "roll_number": 37,
@@ -27,3 +26,4 @@ print(student1)
 
 del student1["roll_number"]
 print(student1)
+
